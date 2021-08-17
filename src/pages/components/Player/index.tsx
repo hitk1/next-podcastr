@@ -43,4 +43,4 @@ const Player: React.FC = () => {
     )
 }
 
-export { Player }
+export default Player

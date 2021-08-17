@@ -1,6 +1,3 @@
-// 20210421090338
-// https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4ea48b9-25ef-4267-aa02-f4815e2a3459/server.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210421%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210421T120337Z&X-Amz-Expires=86400&X-Amz-Signature=1b5196a5fa222a69f97b215d8bed0d06260c94d57a75db5ffb71ef3b4275436f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22server.json%22
-
 {
   "episodes": [
     {
