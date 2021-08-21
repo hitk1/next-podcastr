@@ -2,12 +2,13 @@ import { GetStaticProps } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import Head from 'next/head'
-import { api } from '../services/api'
 import { format, parseISO } from 'date-fns'
 import ptBr from 'date-fns/locale/pt-BR'
+
+import { api } from '../services/api'
 import { convertDuration2TimeString } from '../utils/convertDuration2TimeString'
-import styles from './home.module.scss'
 import { usePlayer } from './contexts/Player'
+import styles from './home.module.scss'
 
 type Episode = {
   id: string

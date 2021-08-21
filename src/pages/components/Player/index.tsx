@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import Image from 'next/image'
-import { usePlayer } from '../../contexts/Player'
-import styles from './styles.module.scss'
-
 import Slider from 'rc-slider'
 import 'rc-slider/assets/index.css'
+
+import { usePlayer } from '../../contexts/Player'
 import { convertDuration2TimeString } from '../../../utils/convertDuration2TimeString'
+import styles from './styles.module.scss'
 
 const Player: React.FC = () => {
     const audioRef = useRef<HTMLAudioElement>(null)

@@ -1,6 +1,7 @@
+import { useMemo } from 'react'
 import format from 'date-fns/format'
 import ptBr from 'date-fns/locale/pt-BR'
-import { useMemo } from 'react'
+
 import styles from './styles.module.scss'
 
 const Header: React.FC = () => {
